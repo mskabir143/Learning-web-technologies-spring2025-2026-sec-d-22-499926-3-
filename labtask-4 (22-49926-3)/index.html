@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Management Page</h1>
+
+        <div class="card">
+            <p><strong>Unit Price:</strong> <span id="unitPrice">1000</span></p>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" value="0" min="0">
+
+            <label for="totalPrice">Total Price:</label>
+            <input type="text" id="totalPrice" readonly value="0">
+
+            <p id="errorMsg" class="error"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
